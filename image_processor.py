@@ -85,7 +85,7 @@ class ImageProcessor:
             sharpened_image = image.filter(ImageFilter.SHARPEN)
         return sharpened_image
 
-    def resize_image(self, percent):
+    def resize_image(self, percent=10):
         """
         Resizes an image by a percentage value.
         :param percent: Percentage value for resizing
